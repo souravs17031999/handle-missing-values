@@ -30,7 +30,10 @@ This method works well for a time series with some trend but is not suitable for
 -> Imputation – Similar to single imputation, missing values are imputed. However, the imputed values are drawn m times from a distribution rather than just once. At the end of this step, there should be m completed datasets.   
 -> Analysis – Each of the m datasets is analyzed. At the end of this step there should be m analyses.    
 -> Pooling – The m results are consolidated into one result by calculating the mean, variance, and confidence interval of the variable of concern.      
-Multivariate imputation by chained equations (MICE), sometimes called “fully conditional specification” or “sequential regression multiple imputation” has emerged in the statistical literature as one principled method of addressing missing data. Creating multiple imputations, as opposed to single imputations, accounts for the statistical uncertainty in the imputations.     
+Multivariate imputation by chained equations (MICE), sometimes called “fully conditional specification” or “sequential regression multiple imputation” has emerged in the statistical literature as one principled method of addressing missing data. Creating multiple imputations, as opposed to single imputations, accounts for the statistical uncertainty in the imputations.   
+* **Random Forests imputation** : They have the desirable properties of being able to handle mixed types of missing data, they are adaptive to interactions and nonlinearity, and they have the potential to scale to big data settings.   
+* **KNN imputation** : KNN is an algorithm that is useful for matching a point with its closest k neighbors in a multi-dimensional space. It can be used for data that are continuous, discrete, ordinal and categorical which makes it particularly useful for dealing with all kind of missing data.    
+The assumption behind using KNN for missing values is that a point value can be approximated by the values of the points that are closest to it, based on other variables.   
 
 * Other Methods using Deep learning can be build to predict the missing values.   
 
