@@ -39,35 +39,31 @@ The assumption behind using KNN for missing values is that a point value can be 
 
 ### Getting started Locally :  
 > Run On Terminal       
-```python -m outlier.outlier inputFilePath outputFilePath z_score```     
-or
-```python -m outlier.outlier inputFilePath outputFilePath iqr```       
-ex. python -m outlier outlier C:/Users/DELL/Desktop/train.csv C:/Users/DELL/Desktop/output.csv z_score     
+```python -m missing.missing <inputFilePath> <outputFilePath>```     
+ex. python -m missing.missing C:/Users/DELL/Desktop/train.csv C:/Users/DELL/Desktop/output.csv        
 
 > Run In IDLE   
-```from outlier import outlier```   
-```o = outlier.outlier(inputFilePath, outputFilePath)```     
-```o.outlier_main('z_score')```
-or    
-```o.outlier_main('iqr')```     
+```from missing import missing```   
+```m = missing.missing(inputFilePath, outputFilePath)```     
+```m.missing_main()```      
 
 > Run on Jupyter   
 Open terminal (cmd)   
 ```jupyter notebook```   
 Create a new python3 file.     
-```from outlier import outlier```   
-```o = outlier.outlier(inputFilePath, outputFilePath)```
-```o.outlier_main('z_score')```
-or    
-```o.outlier_main('iqr')```       
+```from missing import missing```   
+```m = missing.missing(inputFilePath, outputFilePath)```
+```m.missing_main()```     
 
 ### OUTPUT :
 After analysing and visualizing every possible algorithm against metrics (accuracy, log_loss, recall, precision), The best algorithm is applied for imputing the missing values in the original dataset.    
 Also , the final dataframe will be written to the output file path you provided.
  
-![output result on jupyter]()
-![output result on idle]()
-![output result on cmd]() 
+![output result on jupyter](3.JPG)
+![output result on idle](2.JPG)
+![output result on cmd](1.JPG)   
+![visulization1](output1.JPG)
+![visualization2](output2.JPG)
 
 # TESTING : 
 * The package has been extensively tested on various datasets consisting varied types of expected and unexpected input data and any preprocessing , if required has been taken care of.
