@@ -50,9 +50,6 @@ Create a new python3 file.
 or    
 ```o.outlier_main('iqr')```       
 
-* NOTE : ```outlier_main()``` doesn't necessarily require any ```method``` argument , if no argument is provided, it uses ```z_score``` by default as the algorithm for removal of outliers from the dataset.    
-* The algorithm only reports missing data containing columns and not handles them, it assumes that it has been handled already.   
-Also in case of z-score method, it will not affect much, but it may be possible to give wrong output in case of IQR if missing values are found.    
 ### OUTPUT :
 After analysing and visualizing every possible algorithm against metrics (accuracy, log_loss, recall, precision), The best algorithm is applied for imputing the missing values in the original dataset.    
 Also , the final dataframe will be written to the output file path you provided.
