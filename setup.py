@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="missing-python-souravdlboy",
-    version="0.1",
+    version="1.1",
     author="sourav kumar",
     author_email="sauravkumarsct@gmail.com",
     description="Python package for Detecting and Handling missing values with Visualizations",
