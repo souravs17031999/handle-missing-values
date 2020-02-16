@@ -6,6 +6,14 @@ Python package for Detecting and Handling missing values by visualizing and appl
 This is a part of project - III made for UCS633 - Data analytics and visualization at TIET.     
 @Author : Sourav Kumar    
 @Roll no. : 101883068    
+# Knowledge of missing values : 
+Before handling, we have to sometimes watch out for the reason behind the missing values.   
+There are various reasons - 
+* Missingness completely at random   
+* Missingness at random  
+* Missingness that depends on unobserved predictors 
+* Missingness that depends on the missing value itself     
+
 # Algorithm :       
 * **Row removal** / **Column removal** : It removes rows or columns (based on arguments) with missing values / NaN.   
 Python’s pandas library provides a function to remove rows or columns from a dataframe which contain missing values or NaN.   
