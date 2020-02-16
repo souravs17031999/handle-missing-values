@@ -21,13 +21,13 @@ class missing:
     """
     Attributes:
     df : original dataframe of input file
-    input_file : file to be read and perform outlier removal algorithm
+    input_file : file to be read and perform missing values removal algorithm
     output_file : file to be written into after performing the algorithm
     """
     def __init__(self, read_file, write_file):
         """
         Args:
-        input_file : file to be read and perform outlier removal algorithm
+        input_file : file to be read and perform missing values removal algorithm
         output_file : file to be written into after performing the algorithm
         """
         # check for proper csv file
