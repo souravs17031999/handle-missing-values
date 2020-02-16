@@ -52,7 +52,7 @@ Open terminal (cmd)
 ```jupyter notebook```   
 Create a new python3 file.     
 ```from missing import missing```   
-```m = missing.missing(inputFilePath, outputFilePath)```
+```m = missing.missing(inputFilePath, outputFilePath)```     
 ```m.missing_main()```     
 
 ### OUTPUT :
