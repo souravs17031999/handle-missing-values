@@ -16,9 +16,9 @@ There are various reasons -
 
 # Algorithm :       
 * **Row removal** / **Column removal** : It removes rows or columns (based on arguments) with missing values / NaN.   
-Python’s pandas library provides a function to remove rows or columns from a dataframe which contain missing values or NaN.   
+Python's pandas library provides a function to remove rows or columns from a dataframe which contain missing values or NaN.   
 It will remove all the rows which had any missing value. It will not modify the original dataframe, it just returns a copy with modified contents.   
-Default value of ‘how’ argument in dropna() is ‘any’ & for ‘axis’ argument it is 0. It means if we don’t pass any argument in dropna() then still it will delete all the rows with any NaN.      
+Default value of 'how' argument in dropna() is 'any' & for 'axis' argument it is 0. It means if we don't pass any argument in dropna() then still it will delete all the rows with any NaN.      
 * **Statistical Imputation** : 
 **Mean imputation** : Another imputation technique involves replacing any missing value with the mean of that variable for all other cases, which has the benefit of not changing the sample mean for that variable. However, mean imputation attenuates any correlations involving the variable(s) that are imputed.    
 **Median imputation** : Similar to mean, median is used to impute the missing values, useful for numerical features.   
