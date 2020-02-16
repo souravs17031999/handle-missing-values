@@ -59,11 +59,11 @@ Create a new python3 file.
 After analysing and visualizing every possible algorithm against metrics (accuracy, log_loss, recall, precision), The best algorithm is applied for imputing the missing values in the original dataset.    
 Also , the final dataframe will be written to the output file path you provided.
  
-![output result on jupyter](3.JPG)
-![output result on idle](2.JPG)
-![output result on cmd](1.JPG)   
-![visulization1](output1.JPG)
-![visualization2](output2.JPG)
+![output result on jupyter](images/3.JPG)
+![output result on idle](images/2.JPG)
+![output result on cmd](images/1.JPG)   
+![visulization1](images/output1.JPG)
+![visualization2](images/output2.JPG)
 
 # TESTING : 
 * The package has been extensively tested on various datasets consisting varied types of expected and unexpected input data and any preprocessing , if required has been taken care of.
