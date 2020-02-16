@@ -7,6 +7,10 @@ This is a part of project - III made for UCS633 - Data analytics and visualizati
 @Author : Sourav Kumar    
 @Roll no. : 101883068    
 # Algorithm :       
+* **Row removal** / **Column removal** : It removes rows or columns (based on arguments) with missing values / NaN.   
+Python’s pandas library provides a function to remove rows or columns from a dataframe which contain missing values or NaN.   
+It will remove all the rows which had any missing value. It will not modify the original dataframe, it just returns a copy with modified contents.   
+Default value of ‘how’ argument in dropna() is ‘any’ & for ‘axis’ argument it is 0. It means if we don’t pass any argument in dropna() then still it will delete all the rows with any NaN.      
 * 
 ### Getting started Locally :  
 > Run On Terminal       
