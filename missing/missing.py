@@ -1,8 +1,3 @@
-"""
-@ author : sourav kumar (101883068)
-@ made for UCS633 - PROJECT - III
-@ Timestamp : 2020 / 2 / 14
-"""
 # Importing all packages required for imputation
 import numpy as np
 import pandas as pd
